@@ -1,0 +1,38 @@
+# Config changes format version 1.0
+# created by u-center version 25.06 at 03:37:53 on Monday, 26 Jan 2026
+[del]
+[set]
+  BBR CFG-MSGOUT-UBX_NAV_PVT_UART1 0x1                  # write value 1  0x1               to item id 0x20910007 in lay
+  BBR CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 0x20910009 in layer
+  BBR CFG-MSGOUT-UBX_NAV_SVIN_UART1 0x1                  # write value 1  0x1               to item id 0x20910089 in la
+  BBR CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 0x2091008b in laye
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1005_UART1 0x1                  # write value 1  0x1               to item id 0x209102be i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1005_USB 0x1                  # write value 1  0x1               to item id 0x209102c0 in 
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1077_UART1 0x1                  # write value 1  0x1               to item id 0x209102cd i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1077_USB 0x1                  # write value 1  0x1               to item id 0x209102cf in 
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1087_UART1 0x1                  # write value 1  0x1               to item id 0x209102d2 i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1087_USB 0x1                  # write value 1  0x1               to item id 0x209102d4 in 
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1127_UART1 0x1                  # write value 1  0x1               to item id 0x209102d7 i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1127_USB 0x1                  # write value 1  0x1               to item id 0x209102d9 in 
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 0x20910304 i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 0x20910306 in 
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1097_UART1 0x1                  # write value 1  0x1               to item id 0x20910319 i
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1097_USB 0x1                  # write value 1  0x1               to item id 0x2091031b in 
+  BBR CFG-UART1-BAUDRATE   0x1c200              # write value 115200  0x1c200      to item id 0x40520001 in layer 1
+Flash CFG-MSGOUT-UBX_NAV_PVT_UART1 0x1                  # write value 1  0x1               to item id 0x20910007 in lay
+Flash CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 0x20910009 in layer
+Flash CFG-MSGOUT-UBX_NAV_SVIN_UART1 0x1                  # write value 1  0x1               to item id 0x20910089 in la
+Flash CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 0x2091008b in laye
+Flash CFG-MSGOUT-RTCM_3X_TYPE1005_UART1 0x1                  # write value 1  0x1               to item id 0x209102be i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1005_USB 0x1                  # write value 1  0x1               to item id 0x209102c0 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1077_UART1 0x1                  # write value 1  0x1               to item id 0x209102cd i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1077_USB 0x1                  # write value 1  0x1               to item id 0x209102cf in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1087_UART1 0x1                  # write value 1  0x1               to item id 0x209102d2 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1087_USB 0x1                  # write value 1  0x1               to item id 0x209102d4 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1127_UART1 0x1                  # write value 1  0x1               to item id 0x209102d7 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1127_USB 0x1                  # write value 1  0x1               to item id 0x209102d9 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 0x20910304 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 0x20910306 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1097_UART1 0x1                  # write value 1  0x1               to item id 0x20910319 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1097_USB 0x1                  # write value 1  0x1               to item id 0x2091031b in 
+Flash CFG-UART1-BAUDRATE   0x1c200              # write value 115200  0x1c200      to item id 0x40520001 in layer 2
