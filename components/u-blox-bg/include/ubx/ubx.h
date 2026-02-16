@@ -4,4 +4,6 @@
 #include "ubx-default-msg.h"
 #include "ubx-nav-pvt.h"
 #include "ubx-nav-svin.h"
+#include "ubx-cfg-rst.h"
 #include "ubx-cfg-valset.h"
+#include "ubx-cfg-valdel.h"

@@ -20,4 +20,3 @@ void ubx_default_msg_t2ubx_nav_svin(ubx_default_msg_t* msg_in, ubx_nav_svin_t* m
   msg_out->valid = msg_in->payload[36];
   msg_out->active = msg_in->payload[37];
 }
-

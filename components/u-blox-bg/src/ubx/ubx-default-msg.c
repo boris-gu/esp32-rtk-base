@@ -1,6 +1,6 @@
 #include <string.h>
-#include "ubx-default-msg.h"
 #include "ubx-enum.h"
+#include "ubx-default-msg.h"
 
 uint8_t ubx_check;
 
@@ -21,6 +21,21 @@ void ubx_checksum(ubx_default_msg_t* msg) {
     msg->ck_a += msg->payload[i];
     msg->ck_b += msg->ck_a;
   }
+}
+
+uint16_t ubx_array_checksum(uint8_t* msg) {
+  uint16_t payload_length = 0;
+  memcpy(&payload_length, &msg[4], sizeof(uint16_t));
+  // uint16_t payload_length = msg[4] + ((uint16_t)msg[5] << 8);
+  uint16_t ck_a_pos = 6 + payload_length;
+  uint16_t ck_b_pos = ck_a_pos + 1;
+  msg[ck_a_pos] = 0;
+  msg[ck_b_pos] = 0;
+  for (uint16_t i = 2; i < ck_a_pos; i++) {
+    msg[ck_a_pos] += msg[i];
+    msg[ck_b_pos] += msg[ck_a_pos];
+  }
+  return ck_b_pos + 1; // возвращаем длину сообщения
 }
 
 uint8_t ubx_parse_char(uint8_t rx_byte, ubx_default_msg_t* rx_msg, ubx_read_track_t* track) {

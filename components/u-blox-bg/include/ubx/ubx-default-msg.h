@@ -31,4 +31,6 @@ typedef struct {
 
 void ubx_checksum(ubx_default_msg_t* msg);
 
+uint16_t ubx_array_checksum(uint8_t* msg);
+
 uint8_t ubx_parse_char(uint8_t rx_byte, ubx_default_msg_t* rx_msg, ubx_read_track_t* track);
